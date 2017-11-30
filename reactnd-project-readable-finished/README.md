@@ -14,7 +14,7 @@ clone the repo:
 
 after download the repo, follow the instructions run the server
 
-the cd to this content
+then just cd to this real content
 
 just do :
 
