@@ -26,7 +26,7 @@ class PostDetail extends Component {
     postContent: ''
   }
 
-  componentWillMount () {
+  componentDidMount () {
     this.props
       .fetchData(this.props.match.params.post_id, 'BY_SCORE_HIGHEST')
       .then(

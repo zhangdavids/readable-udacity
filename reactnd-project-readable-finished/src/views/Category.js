@@ -7,7 +7,7 @@ import '../styles/app.css'
 const uuidv1 = require('uuid/v1')
 
 class Category extends Component {
-  componentWillMount () {
+  componentDidMount () {
     this.props.fetchData(this.props.match.params.category, 'BY_SCORE_HIGHEST')
   }
 
